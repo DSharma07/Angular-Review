@@ -1,0 +1,13 @@
+<h2>Array of Authors</h2>
+
+  <div *ngIf="authors">
+      Length of Array: {{authors.length}}
+ <hr/>
+      
+    <div><b>Loop through Array</b></div>
+     <div *ngFor="let author of authors">
+     {{author}}
+     </div>
+  </div>
+     
+    
